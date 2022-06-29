@@ -1,0 +1,78 @@
+.timeline_content_workExp {
+  display: flex;
+  flex-direction: column;
+  padding-left: 5px;
+  padding: 0 0 10px 5px;
+}
+.workExp_head {
+  display: flex;
+  flex-direction: row;
+  /* background-color: red; */
+  align-items: center;
+  cursor: pointer;
+  padding: 10px 15px 5px 15px;
+  position: relative;
+  color: rgb(55, 140, 215);
+}
+
+.workExp_head:hover {
+  transition: all 0.3s ease;
+  background-color: rgb(206, 206, 206, 0.5);
+}
+.workExp_head_info {
+  flex: 9;
+}
+.workExp_head_onoff {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  right: 0;
+  transform-origin: center center;
+  transition: transform ease 0.3s;
+}
+.timeline_content_workExp h2 {
+  font-size: 1.1rem;
+  letter-spacing: -0.3px;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+.workExp_company_time {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  /* justify-content: space-between; */
+  margin-bottom: 0.7rem;
+}
+
+.timeline_content_workExp h3 {
+  font-size: 0.8rem;
+  font-weight: 400;
+  font-style: italic;
+  /* letter-spacing: -0.2px; */
+}
+.timeline_content_workExp h4 {
+  font-size: 0.8rem;
+  font-weight: 400;
+  font-style: italic;
+  /* letter-spacing: -0.2px; */
+  /* margin-left: 7px; */
+}
+
+.workExp_details p {
+  margin: 10px 0 10px 19px;
+  text-indent: -9px;
+}
+.workExp_details {
+  overflow: hidden;
+  transition: height ease 0.3s;
+}
+
+@media only screen and (max-width: 1000px) {
+  /* .workExp_company_time {
+    flex-direction: column;
+  } */
+  .workExp_company_time h4 {
+    margin-left: 0;
+  }
+}

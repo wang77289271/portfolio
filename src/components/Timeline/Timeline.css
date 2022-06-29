@@ -1,0 +1,193 @@
+.timeline_container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem 0;
+}
+.timeline {
+  width: 80%;
+  height: auto;
+  max-width: 800px;
+  margin: 0 auto;
+  position: relative;
+}
+.timeline ul {
+  list-style: none;
+}
+.timeline ul li {
+  padding: 10px;
+  margin: 20px 0;
+  background-color: rgb(247, 247, 247);
+  border-radius: 5px;
+  box-shadow: 0 2px 20px 0 rgb(153, 153, 153);
+}
+.timeline ul li:last-child {
+  margin-bottom: 0;
+}
+.timeline_content h1 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 5px 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.timeline_content .timeline_content_detail p {
+  font-size: 0.85rem;
+  font-weight: 400;
+  line-height: 1.2rem;
+  letter-spacing: 0.2px;
+}
+.timeline_content .timeline_content_detail hr {
+  height: 2px;
+  width: 95%;
+  border: none;
+  background-color: rgba(139, 139, 139, 0.2);
+  margin: 15px auto;
+}
+
+.timeline_content_skills {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.timeline_content_skills h5 {
+  font-size: 0.9rem;
+  line-height: 1.35rem;
+  letter-spacing: 0.5px;
+  /* white-space: nowrap; */
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+.timeline_content_skills .skill_icon {
+  flex: 1;
+  text-align: center;
+}
+.timeline_content_skills .skill_icon h3 {
+  font-size: 2.5rem;
+  margin: 0;
+  padding: 0;
+  font-weight: 800;
+  color: rgb(84, 111, 218);
+}
+.skill_right {
+  flex: 4;
+  margin-left: 1.5rem;
+}
+.timeline_content_edu {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.4rem;
+  margin: 1rem 0;
+}
+.timeline_content_edu h2 {
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+.timeline_content_edu h3 {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: rgb(125, 69, 32);
+  font-style: italic;
+}
+.timeline_content_edu p {
+  font-size: 0.8rem;
+  font-weight: 300;
+  color: rgb(93, 93, 93);
+}
+
+@media only screen and (min-width: 760px) {
+  .timeline {
+    padding: 2rem 0;
+  }
+  .timeline::before {
+    content: '';
+    position: absolute;
+    height: 98%;
+    width: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgb(245, 245, 245);
+    border: 3px rgb(13, 98, 76) solid;
+    border-radius: 5px;
+    margin-top: -2rem;
+  }
+  .timeline ul li {
+    width: 50%;
+    margin-bottom: 50px;
+    position: relative;
+    padding: 0;
+    background-color: transparent;
+    border-radius: 0;
+    box-shadow: none;
+  }
+  .timeline ul li h1 {
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+    font-weight: 700;
+  }
+  .timeline_content_detail {
+    margin-top: 3rem;
+  }
+  .timeline ul li:nth-child(odd) {
+    float: left;
+    clear: right;
+    transform: translate(-20px, 0);
+  }
+
+  .timeline ul li:nth-child(even) {
+    float: right;
+    clear: left;
+    transform: translate(20px, 0);
+  }
+  .timeline ul li div.dot {
+    position: absolute;
+    height: 35px;
+    width: 35px;
+    background-color: rgb(245, 245, 245);
+    border-radius: 50%;
+    top: -13px;
+    border-width: 10px;
+    border-style: solid;
+    z-index: 9;
+  }
+
+  .timeline ul li:nth-child(odd) h1 {
+    position: absolute;
+    top: -18px;
+  }
+  .timeline ul li:nth-child(even) h1 {
+    position: absolute;
+    top: -15px;
+    right: 0;
+  }
+  .timeline ul li:nth-child(odd) span {
+    height: 8px;
+    width: 45%;
+    position: absolute;
+    top: 0;
+    right: -30px;
+    border-radius: 5px;
+  }
+  .timeline ul li:nth-child(even) span {
+    height: 8px;
+    width: 55%;
+    position: absolute;
+    top: 0;
+    left: -30px;
+    border-radius: 5px;
+  }
+  /* Section position */
+  .timeline ul li.skills {
+    margin-top: -5rem;
+  }
+  .timeline ul li.education {
+    margin-top: -5rem;
+  }
+  .timeline ul li.workEpx {
+    margin-top: -12rem;
+  }
+}
