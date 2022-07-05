@@ -37,6 +37,7 @@
   transform: translate(-20px, -50%);
   opacity: 0;
   z-index: 9;
+  white-space: nowrap;
 }
 
 .nav_wrapper a {
@@ -62,18 +63,24 @@
   z-index: 10;
   cursor: pointer;
 }
+.nav_list.active .home_icon,
+.nav_list .home_icon:hover {
+  color: #ffffff;
+  opacity: 0.8;
+}
 .nav_list.home.active .home_icon,
 .nav_list.home .home_icon:hover {
-  color: #ffffff;
   background-color: #f16521;
-  opacity: 0.8;
 }
 .nav_list.about.active .home_icon,
 .nav_list.about .home_icon:hover {
-  color: #ffffff;
   background-color: #25a8d7;
-  opacity: 0.8;
 }
+.nav_list.contact.active .home_icon,
+.nav_list.contact .home_icon:hover {
+  background-color: rgb(247, 206, 1);
+}
+
 .home_icon:hover ~ h1 {
   opacity: 1;
   transform: translate(40px, -50%);

@@ -46,6 +46,9 @@
   margin-top: 1rem;
   align-items: center;
 }
+.header_btn a {
+  text-decoration: none;
+}
 .header_btn_left {
   transform: translateX(-0.5rem);
 }

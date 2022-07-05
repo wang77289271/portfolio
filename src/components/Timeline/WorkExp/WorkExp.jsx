@@ -65,7 +65,7 @@ const WorkExp = ({ workExp }) => {
             : { height: '0px', border: '0px' }
         }
       >
-        {details.split('/').map((detail, index) => (
+        {details.split('~').map((detail, index) => (
           <p key={index}>• {detail}</p>
         ))}
       </div>

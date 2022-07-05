@@ -2,6 +2,7 @@ import { useEffect } from 'react'
 import './Nav.css'
 import HomeIcon from '@mui/icons-material/Home'
 import PersonIcon from '@mui/icons-material/Person'
+import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined'
 
 const Nav = () => {
   useEffect(() => {
@@ -10,7 +11,6 @@ const Nav = () => {
       document.querySelectorAll('.nav_container .nav_wrapper .nav_list')
     )
 
-    console.log(sections)
     window.addEventListener('scroll', () => {
       let current = ''
       sections.forEach((section) => {
@@ -51,6 +51,17 @@ const Nav = () => {
               }}
             />
             <h1>About</h1>
+          </div>
+        </a>
+        <a href="#contact">
+          <div className="nav_list contact">
+            <EmailOutlinedIcon
+              className="home_icon"
+              style={{
+                fontSize: '2.2rem',
+              }}
+            />
+            <h1>Contact me</h1>
           </div>
         </a>
       </div>

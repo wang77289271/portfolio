@@ -1,0 +1,51 @@
+.contactme {
+  overflow: hidden;
+  background-color: #fff;
+  padding: 3rem 0;
+  position: relative;
+}
+.contactme-wrapper {
+  width: 60%;
+  margin: auto;
+}
+.contactme-title {
+  width: 100%;
+  text-align: center;
+}
+.contactme-title h2 {
+  margin: 2rem 0 3rem 0;
+  font-size: 3rem;
+}
+
+.contactme .contactme-main {
+  display: flex;
+  flex-direction: row;
+}
+/* .contactMe-content {
+  flex: 1;
+  padding: 0 15px;
+}
+.contactMe-content img {
+  width: 90%;
+  height: auto;
+} */
+.contactEmail {
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.contactme-form {
+  /* flex: 2; */
+  margin: 0 30px;
+  width: 100%;
+}
+
+@media only screen and (max-width: 760px) {
+  /* .contactMe-content {
+    display: none;
+  } */
+  .contactme-title h2 {
+    font-size: 2rem;
+  }
+}

@@ -1,5 +1,6 @@
 :root {
   --btn--color: #258cdb;
+  --btn--color--rgb: 37, 140, 219;
 }
 html {
   scroll-behavior: smooth;

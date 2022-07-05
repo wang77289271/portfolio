@@ -18,8 +18,12 @@ const Header = () => {
           </div>
         </div>
         <div className="header_btn">
-          <SolidBtn className="header_btn_left">About me</SolidBtn>
-          <OutlinedBtn className="header_btn_right">Contact Me</OutlinedBtn>
+          <SolidBtn className="header_btn_left">
+            <a href="#about">About me</a>
+          </SolidBtn>
+          <OutlinedBtn className="header_btn_right">
+            <a href="#contact">Contact Me</a>
+          </OutlinedBtn>
         </div>
       </div>
     </div>
