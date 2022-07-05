@@ -16,7 +16,6 @@ const Timeline = () => {
     }
     getWorkExp()
   }, [])
-  console.log(workExp)
 
   return (
     <div className="timeline_container">
@@ -131,7 +130,7 @@ const Timeline = () => {
               <span style={{ backgroundColor: '#f7ce01', width: '35%' }} />
               <div className="timeline_content_detail">
                 {workExp.map((workExp) => (
-                  <WorkExp workExp={workExp} />
+                  <WorkExp workExp={workExp} key={workExp.id} />
                 ))}
               </div>
             </div>

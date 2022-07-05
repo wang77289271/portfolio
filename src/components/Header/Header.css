@@ -1,0 +1,54 @@
+.header_container {
+  width: 100%;
+  padding: 5rem 0;
+  min-height: 80vh;
+}
+.header_container_wrapper {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.header_info .header_img {
+  width: 460px;
+  margin: auto;
+}
+.header_info .header_img img {
+  width: 100%;
+}
+.header_content {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0;
+}
+.header_content h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.header_content h3 {
+  /* margin: 10px 0; */
+  font-size: 1.3rem;
+  /* color: #16a1b6; */
+  font-family: 'Anek Malayalam', sans-serif;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+.header_content h4 {
+  font-size: 1.3rem;
+  font-weight: 300;
+}
+.header_btn {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1rem;
+  align-items: center;
+}
+.header_btn_left {
+  transform: translateX(-0.5rem);
+}
+.header_btn_right {
+  transform: translateX(0.5rem);
+}
