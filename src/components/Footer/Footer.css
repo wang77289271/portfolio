@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Dawning+of+a+New+Day&display=swap');
+
+.footer {
+  width: 100%;
+  background-color: var(--btn--color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 2rem;
+}
+.footer_sentence {
+  width: 50%;
+  margin: auto;
+}
+.footer_sentence h1 {
+  text-align: center;
+  font-weight: 300;
+  color: #ffffff;
+  margin-top: 2rem;
+  font-family: 'Dawning of a New Day', cursive;
+  font-size: 3rem;
+  line-height: 3rem;
+}
+.footer_wrapper {
+  width: 50%;
+  min-height: 5rem;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.footer_list {
+  margin: 0 1rem;
+}
+.footer_list a {
+  text-decoration: none;
+  color: #ffffff;
+}
+@media only screen and (max-width: 900px) {
+  .footer_sentence {
+    width: 70%;
+  }
+  .footer_wrapper {
+    width: 70%;
+  }
+}
