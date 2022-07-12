@@ -3,6 +3,7 @@ import './Nav.css'
 import HomeIcon from '@mui/icons-material/Home'
 import PersonIcon from '@mui/icons-material/Person'
 import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined'
+import AssignmentIcon from '@mui/icons-material/Assignment'
 
 const Nav = () => {
   useEffect(() => {
@@ -41,7 +42,6 @@ const Nav = () => {
             <h1>Home</h1>
           </div>
         </a>
-
         <a href="#about">
           <div className="nav_list about">
             <PersonIcon
@@ -51,6 +51,17 @@ const Nav = () => {
               }}
             />
             <h1>About</h1>
+          </div>
+        </a>
+        <a href="#work">
+          <div className="nav_list work">
+            <AssignmentIcon
+              className="home_icon"
+              style={{
+                fontSize: '2.2rem',
+              }}
+            />
+            <h1>My Work</h1>
           </div>
         </a>
         <a href="#contact">

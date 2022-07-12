@@ -40,11 +40,18 @@
   margin: 0 30px;
   width: 100%;
 }
-
+@media only screen and (max-width: 900px) {
+  .contactme-form {
+    margin: 0 10px;
+  }
+}
 @media only screen and (max-width: 760px) {
   /* .contactMe-content {
     display: none;
   } */
+  .contactme-wrapper {
+    width: 80%;
+  }
   .contactme-title h2 {
     font-size: 2rem;
   }

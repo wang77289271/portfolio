@@ -1,0 +1,18 @@
+#work {
+  position: relative;
+  box-shadow: 0 0 5px 0 rgb(81, 81, 81, 0.2);
+  z-index: 10;
+}
+#work::before {
+  content: '';
+  position: absolute;
+  background-color: #ffce2d;
+  width: 20%;
+  height: 100%;
+  z-index: 9;
+}
+@media only screen and (max-width: 760px) {
+  #work::before {
+    display: none;
+  }
+}

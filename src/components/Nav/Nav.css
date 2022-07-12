@@ -11,7 +11,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: rgb(255, 255, 255, 0.7);
+  background-color: rgb(255, 255, 255, 0.5);
+  backdrop-filter: blur(10px);
   box-shadow: 0 0 10px rgb(0, 0, 0, 0.2);
   padding: 7px 3px;
   border-radius: 50px;
@@ -80,7 +81,10 @@
 .nav_list.contact .home_icon:hover {
   background-color: rgb(247, 206, 1);
 }
-
+.nav_list.work.active .home_icon,
+.nav_list.work .home_icon:hover {
+  background-color: rgb(193, 84, 218);
+}
 .home_icon:hover ~ h1 {
   opacity: 1;
   transform: translate(40px, -50%);
