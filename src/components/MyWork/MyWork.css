@@ -1,0 +1,37 @@
+.myWork {
+  width: 100%;
+  height: auto;
+}
+.myWork_wrapper {
+  padding: 7rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.myWork_title {
+  text-align: center;
+}
+.myWork_title h1 {
+  font-size: 2.5rem;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+  /* font-stretch: extra-expanded; */
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+.myWork_title p {
+  letter-spacing: 0.5px;
+  color: #525252;
+}
+.myWork_items {
+  width: 800px;
+  height: auto;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0;
+}
+.myWork_item {
+  margin: 30px 0;
+  height: 450px;
+}

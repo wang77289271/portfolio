@@ -1,6 +1,6 @@
 import React from 'react'
 import './GraphicDesign.css'
-import gd_img from '../../../images/industrialFlyer.png'
+import gd_img from '../../assets/industrialFlyer.png'
 
 const GraphicDesign = () => {
   return (

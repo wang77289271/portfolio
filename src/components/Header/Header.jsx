@@ -1,5 +1,5 @@
 import './Header.css'
-import headerImg from '../../images/portfolio-header.png'
+import headerImg from '../assets/portfolio-header.png'
 import SolidBtn from '../UI/button/SolidBtn'
 import OutlinedBtn from '../UI/button/OutlinedBtn'
 
