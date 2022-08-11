@@ -35,3 +35,31 @@
   grid-template-columns: repeat(2, 1fr);
   gap: 30px;
 }
+@media only screen and (max-width: 900px) {
+  .myWork_items {
+    width: 60%;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .myWork_title {
+    margin-bottom: 3rem;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .myWork_items {
+    width: 80%;
+  }
+  .myWork_title {
+    margin-bottom: 2rem;
+  }
+  .myWork_title h1 {
+    font-size: 2rem;
+  }
+  .myWork_title p {
+    font-size: 1.2rem;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .myWork_items {
+    width: 90%;
+  }
+}

@@ -2,11 +2,11 @@
 
 .footer {
   width: 100%;
-  background-color: var(--btn--color);
+  background-color: #2d5574;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-bottom: 2rem;
+  /* padding-bottom: 2rem; */
 }
 .footer_sentence {
   width: 50%;
@@ -16,27 +16,44 @@
   text-align: center;
   font-weight: 300;
   color: #ffffff;
-  margin-top: 2rem;
+  /* margin-top: 2rem; */
   font-family: 'Dawning of a New Day', cursive;
-  font-size: 3rem;
+  font-size: 2rem;
   line-height: 3rem;
 }
 .footer_wrapper {
   width: 50%;
-  min-height: 5rem;
-  margin: auto;
+  margin: 2rem auto 1rem auto;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
 }
 .footer_list {
-  margin: 0 1rem;
+  margin: 0 20px;
 }
 .footer_list a {
   text-decoration: none;
   color: #ffffff;
 }
+.footer_copyright {
+  width: 100%;
+  text-align: center;
+  margin-top: 2rem;
+}
+.footer_copyright hr {
+  height: 1px;
+  border: none;
+  background-color: rgb(196, 196, 196, 0.5);
+}
+.footer_copyright h1 {
+  font-size: 15px;
+  font-weight: 400;
+  margin: 10px 0;
+  letter-spacing: 1px;
+  color: rgb(216, 216, 216);
+}
+
 @media only screen and (max-width: 900px) {
   .footer_sentence {
     width: 70%;
