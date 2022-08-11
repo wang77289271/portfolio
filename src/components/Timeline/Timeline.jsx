@@ -32,9 +32,9 @@ const Timeline = () => {
               <span style={{ backgroundColor: '#f16521' }} />
               <div className="timeline_content_detail">
                 <p>
-                  I am a creative front-end developer with 4+ years of
-                  experience. Skilled in designing, developing and testing
-                  multiple web-based application.
+                  My name is Ye Wang. I am a creative front-end developer with
+                  4+ years of experience. Skilled in designing, developing and
+                  testing multiple web-based application.
                 </p>
                 <p
                   style={{
@@ -65,8 +65,10 @@ const Timeline = () => {
                     <h3>&lt;/&gt;</h3>
                   </div>
                   <div className="skill_right">
-                    <h5>HTML, CSS, JavaScript, React, WordPress</h5>
-                    <h5>Material UI, Nodejs, Bootstrap</h5>
+                    <h5>
+                      HTML, CSS, JavaScript, React, Redux, WordPress, Nodejs,
+                      RESTful API, Bootstrap
+                    </h5>
                   </div>
                 </div>
                 <hr />

@@ -1,7 +1,10 @@
 .header_container {
   width: 100%;
-  padding: 5rem 0;
-  min-height: 80vh;
+  /* padding: 5rem 0; */
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .header_container_wrapper {
   width: 50%;
@@ -13,7 +16,7 @@
   text-align: center;
 }
 .header_info .header_img {
-  width: 460px;
+  width: 420px;
   margin: auto;
 }
 .header_info .header_img img {
@@ -29,16 +32,20 @@
   font-weight: 600;
 }
 .header_content h3 {
-  /* margin: 10px 0; */
-  font-size: 1.3rem;
-  /* color: #16a1b6; */
-  font-family: 'Anek Malayalam', sans-serif;
-  font-weight: 300;
+  font-size: 3rem;
+  color: #141c3a;
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 600;
   letter-spacing: 1px;
+  margin-bottom: 1rem;
 }
 .header_content h4 {
-  font-size: 1.3rem;
+  font-family: 'Exo 2', sans-serif;
+  color: #161d33;
+  font-size: 1.5rem;
   font-weight: 300;
+  margin-bottom: 2rem;
+  letter-spacing: 1px;
 }
 .header_btn {
   display: flex;
@@ -54,4 +61,19 @@
 }
 .header_btn_right {
   transform: translateX(0.5rem);
+}
+.floating_btn {
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
 }

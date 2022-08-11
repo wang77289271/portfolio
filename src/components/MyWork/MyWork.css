@@ -10,28 +10,28 @@
 }
 .myWork_title {
   text-align: center;
+  margin-bottom: 5rem;
 }
 .myWork_title h1 {
-  font-size: 2.5rem;
-  font-weight: 500;
-  font-family: 'Roboto', sans-serif;
-  /* font-stretch: extra-expanded; */
-  letter-spacing: 2px;
+  font-size: 2.6rem;
+  font-weight: 600;
+  font-family: 'Exo 2', sans-serif;
+  letter-spacing: 1px;
   margin-bottom: 10px;
+  color: #141c3a;
 }
 .myWork_title p {
+  font-family: 'Exo 2', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 300;
   letter-spacing: 0.5px;
-  color: #525252;
+  color: #161d33;
 }
 .myWork_items {
-  width: 800px;
+  width: 80%;
   height: auto;
   margin: auto;
-  display: flex;
-  flex-direction: column;
-  padding: 1rem 0;
-}
-.myWork_item {
-  margin: 30px 0;
-  height: 450px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
 }

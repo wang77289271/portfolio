@@ -10,7 +10,7 @@ const MyWork = () => {
       <div className="myWork_wrapper">
         <div className="myWork_title">
           <h1>My Resent Works</h1>
-          <p>Here are some project I have built.</p>
+          <p>Here are some project I have recently built.</p>
         </div>
         <div className="myWork_items">
           {myWorks.map((item, index) => (
