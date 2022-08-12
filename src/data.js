@@ -8,7 +8,7 @@ export const myWorks = [
     title: 'Furniture e-commerce',
     skills: 'React, HTML, CSS',
     des: 'Furniture eCommerce website using React, Javascript, commerce.js, HTML, CSS',
-    url: 'https://yfurniture-e-commerce.netlify.app/',
+    url: 'https://furniture.findyewang.com/',
     github_url: 'https://github.com/wang77289271/furniture-ecommerce',
     img: `${yfurniture}`,
     bg_color: '#3b68d0',
