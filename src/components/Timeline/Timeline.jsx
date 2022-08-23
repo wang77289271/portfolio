@@ -32,8 +32,8 @@ const Timeline = () => {
               <span style={{ backgroundColor: '#f16521' }} />
               <div className="timeline_content_detail">
                 <p>
-                  My name is Ye Wang. I am a creative front-end developer with
-                  4+ years of experience. Skilled in designing, developing and
+                  My name is Ye Wang. I am a creative web developer with 4+
+                  years of experience. Skilled in designing, developing and
                   testing multiple web-based application.
                 </p>
                 <p

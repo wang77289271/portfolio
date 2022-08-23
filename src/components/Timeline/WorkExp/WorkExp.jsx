@@ -6,7 +6,7 @@ import RemoveIcon from '@mui/icons-material/Remove'
 const WorkExp = ({ workExp }) => {
   const [isOpen, setIsOpen] = useState(false)
   const workExpRef = useRef()
-  const { company, title, period, details } = workExp
+  const { company, title, period, details, skills } = workExp
 
   return (
     <div className="timeline_content_workExp">
@@ -22,8 +22,12 @@ const WorkExp = ({ workExp }) => {
         <div className="workExp_head_info">
           <h2>{title}</h2>
           <div className="workExp_company_time">
-            <h3>{company}</h3>
-            <h4>{period}</h4>
+            <h3 style={isOpen ? { color: '#fff' } : { color: '#555' }}>
+              {skills}
+            </h3>
+            <h4 style={isOpen ? { color: '#e5e5e5' } : { color: '#4b4b4b' }}>
+              {company} {period}
+            </h4>
           </div>
         </div>
         <div
